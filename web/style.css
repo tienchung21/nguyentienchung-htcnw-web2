@@ -1,0 +1,156 @@
+.main{
+    width: 1000px;
+    height: 850px;
+    border: 1px black solid;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    border: 1px black solid;
+}
+.title{
+    width: 100%;
+    height: 70px;
+    background-color: brown;
+    color: yellow;
+    display: flex;
+    align-items: center;
+}
+.title h1{
+   margin: 0px; 
+   margin-left: 20px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   text-shadow: 5px 5px 5px coral;/*Đổ bóng mờ*/
+   font-display: 
+}
+.menu{
+    width: 50%;
+    height: 30px;
+}
+.menu a{
+    text-decoration: none;
+    color: brown;
+}
+.menu ul{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+}
+.menu ul li{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.menu ul li ul{
+    width: 150%;
+    height: 80px;
+    position: absolute;
+    display: none;
+}
+.menu ul li ul li{
+    width: 100%;
+    height: 100%;
+}
+.menu ul li:hover{
+    background-color: aqua;
+}
+.menu ul li:hover ul{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    margin-top: 110px;
+}
+.baner{
+    width: 100%;   
+    height: 150px;
+    margin-bottom: 50px;
+}
+.baner img{
+    width: 100%;
+    height: 150px;
+}
+.left{
+    width: 65%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left h2{
+    margin-left: 20px;
+    width: 100%;
+    color: rgb(149, 149, 0);
+}
+.form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.form input{
+    height: 50px;
+    border: 0px;
+    border-bottom: 1px gray solid;
+}
+.form button{
+    width: 150px;
+    height: 30px;
+    border: 0px;
+    background-color: rgb(101, 132, 39);
+    color: white;
+    border-radius: 3px;
+    margin-top: 40px;
+}
+.right{
+    width: 34%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 1px gray solid;
+}
+.link{
+    width: 90%;
+    background-color: antiquewhite;
+    border-radius: 30px 30px 0px 0px;
+}
+.link h2{
+    color: rgb(160, 127, 76);
+    margin-left: 20px;
+}
+.link ul{
+    margin-left: 50px;
+    list-style: square;
+}
+.link li{
+    color: rgb(120, 99, 73);
+}
+.info{
+    width: 90%;
+}
+.info img{
+    float: left;
+}
+.info p{
+    word-spacing: 2px;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+}
+.footer img{
+    width: 100%;
+    height: 100%;
+}
